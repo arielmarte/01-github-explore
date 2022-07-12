@@ -20,6 +20,9 @@ module.exports = {
             directory: path.join(__dirname, "public"),
         },
         hot: true,
+        compress: true,
+            port: 9000,
+
     },
     plugins: [
         isDevelopment && new ReactrefreshWebpackPlugin(),
